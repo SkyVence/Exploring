@@ -18,3 +18,28 @@ header {
 	margin: auto;
 	align-items: center;
 }
+
+.Logo-container,
+.navlinks {
+		display: flex;
+}
+
+.Logo-container {
+	flex: 1;
+}
+.logo {
+	font-weight: 400;
+	margin: 5px;
+}
+nav {
+	flex: 2;
+}
+.navlinks {
+	justify-content: space-around;
+	list-style: none;
+}
+.navlink  {
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+}
