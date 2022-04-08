@@ -20,7 +20,8 @@ header {
 }
 
 .logo-container,
-.nav-links {
+.nav-links,
+.cart {
 	display: flex;
 }
 
@@ -44,4 +45,9 @@ nav {
 	color: #5f5f79;
 	font-size: 18px;
 	text-decoration: none;
+}
+
+.cart {
+	flex: 2;
+	justify-content: flex-end;
 }
