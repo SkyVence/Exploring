@@ -1,7 +1,7 @@
 <?php
 // Database settings
 $db="exploring";
-$dbhost="localhost";
+$dbhost="192.168.4.100";
 $dbport=3307;
 $dbuser="root";
 $dbpasswd="Antoine06,!";
