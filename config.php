@@ -10,7 +10,7 @@
         ini_set('default_socket_timeout,300');
     try 
     {
-        $bdd = new PDO("mysql:host=192.168.4.100;dbname=exploring;charset=utf8;port=3306", "root", "Antoine06,!");
+        $bdd = new PDO("mysql:host=192.168.4.100;dbname=exploring;charset=utf8;port=3307", "root", "Antoine06,!");
     }
     catch(PDOException $e)
     {
